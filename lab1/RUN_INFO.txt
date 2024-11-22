@@ -1,0 +1,10 @@
+npm run dev
+
+// SORT
+http://localhost:3000/episode-list?season=1&sort=date
+
+// GET CHARACTER
+http://localhost:3000/character/1
+
+// GET EPISODE
+http://localhost:3000/episodes/1

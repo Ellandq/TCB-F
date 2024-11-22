@@ -1,0 +1,28 @@
+console.log(swap([1, 2]));
+
+console.log(rectangle.area);
+rectangle.dimensions = { width: 7, height: 14 };
+console.log(rectangle.area);
+
+console.log('TEST 123'.reverse());
+
+console.log(DateUtils.isLeapYear(2024)); - PRAWDA
+console.log(DateUtils.isLeapYear(2025)); - FAŁSZ
+
+const user = createUser({ name: 'John' });
+console.log(user); // { name: 'John', age: 18 }
+const userWithAge = createUser({ name: 'Jane', age: 25 });
+console.log(userWithAge); // { name: 'Jane', age: 25 }
+
+const obj1 = { a: 1, b: 2 };
+const obj2 = { b: 3, c: 4 };
+const extendedObj = extend(obj1, obj2);
+console.log(extendedObj); 
+
+const arr = [2, 4, 6, 8];
+const allEven = arr.myEvery(num => num % 2 === 0);
+console.log(allEven); - PRAWDA
+
+const arr2 = [1, 2, 3];
+const allEven2 = arr2.myEvery(num => num % 2 === 0);
+console.log(allEven2); - FAŁSZ
